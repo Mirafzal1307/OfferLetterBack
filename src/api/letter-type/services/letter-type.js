@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * api service
+ * letter-type service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::api.api');
+module.exports = createCoreService('api::letter-type.letter-type');

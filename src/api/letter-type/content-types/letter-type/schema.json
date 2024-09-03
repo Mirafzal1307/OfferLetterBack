@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "letter_types",
+  "info": {
+    "singularName": "letter-type",
+    "pluralName": "letter-types",
+    "displayName": "letter-type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    }
+  }
+}

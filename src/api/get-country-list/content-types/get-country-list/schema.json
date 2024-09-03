@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "get_country_lists",
+  "info": {
+    "singularName": "get-country-list",
+    "pluralName": "get-country-lists",
+    "displayName": "get country list",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "country_name": {
+      "type": "string"
+    },
+    "rich_status": {
+      "type": "boolean"
+    }
+  }
+}

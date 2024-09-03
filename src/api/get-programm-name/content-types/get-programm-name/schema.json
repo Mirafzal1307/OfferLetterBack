@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "get_programm_names",
+  "info": {
+    "singularName": "get-programm-name",
+    "pluralName": "get-programm-names",
+    "displayName": "get-programm-name",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "programm_name": {
+      "type": "string",
+      "required": true
+    },
+    "tution_fee": {
+      "type": "string",
+      "required": true
+    },
+    "tutionFeeRichC": {
+      "type": "string",
+      "required": true
+    },
+    "tutionFeePoorC": {
+      "type": "string",
+      "required": true
+    },
+    "scholarRichC": {
+      "type": "string",
+      "required": true
+    },
+    "scholarPoorC": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "string",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "required": true
+    },
+    "additional_scholar": {
+      "type": "string"
+    }
+  }
+}
